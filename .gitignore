@@ -1,0 +1,11 @@
+.gradle/
+.idea/
+app/.externalNativeBuild/
+app/app.iml
+build/
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+local.properties
+studyandroid.iml
