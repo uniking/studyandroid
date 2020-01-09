@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import org.greenrobot.eventbus.EventBus;
 
+import def.abc.studyandroid.annotation.AnnotationTest;
 import def.abc.studyandroid.eventbus.EventBusTest;
 import def.abc.studyandroid.eventbus.EventBusTest2;
 import def.abc.studyandroid.eventbus.Test;
@@ -31,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Test.run();
+            }
+        });
+
+        findViewById(R.id.bt_annotations).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AnnotationTest.hello();
             }
         });
     }
